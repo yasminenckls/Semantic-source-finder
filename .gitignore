@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+env/
+
+.env
+
+vector_db/
+documents/
+
+.DS_Store
+.streamlit/secrets.toml
