@@ -18,3 +18,34 @@ ingest.py           # PDF ingestion and vector database creation
 requirements.txt    # Python dependencies
 documents/          # Local PDF folder, not pushed to GitHub
 vector_db/          # Local Chroma database, not pushed to GitHub
+## Setup
+
+Install dependencies:
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+Add your PDF files to a local `documents/` folder.
+
+Create the vector database:
+
+```bash
+
+python ingest.py
+
+```
+
+Run the app:
+
+```bash
+
+streamlit run app.py
+
+```
+
+## Notes
+
+The `documents/`, `vector_db/`, and `.env` files are intentionally excluded from GitHub.
