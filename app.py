@@ -91,8 +91,8 @@ def load_reranker():
 
 
 st.set_page_config(
-    page_title="FCC FAQ Source Finder",
-    page_icon="🔬",
+    page_title="Semantic Source Finder",
+    page_icon="🔎",
     layout="wide"
 )
 st.caption("Embedding model: BAAI/bge-m3")
@@ -204,9 +204,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-# FCC-PED Source Finder 
+# Semantic Source Finder
 """)
-
 
 with st.sidebar:
     st.header("Search settings")
