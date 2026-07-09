@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ```
 
-Add your PDF files to a local `documents/` folder. On the `app.py/` python code, add the names of the PDF files you want to see on the interface and their corresponding pdf adresses such as named in the `documents/` folder in the DOCUMENT_OPTIONS dictionnary. 
+Add your PDF files to a local `documents/` folder. On the `app.py/` DOCUMENT_OPTIONS dictionnary, add the names of the PDF files you want to see on the interface and their corresponding pdf adresses such as named in the `documents/` folder. 
 
 Create the vector database:
 
